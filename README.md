@@ -67,12 +67,6 @@ uv run modal run nanochat_modal.py::stage_tokenizer
 uv run modal run nanochat_modal.py::stage_pretrain
 ```
 
-Optional (CORE metric):
-
-```bash
-uv run modal run nanochat_modal.py::stage_post_pretrain_eval
-```
-
 ## Run 2: SwiGLU
 
 1. Copy SwiGLU code into nanochat (so the next image build includes it):
